@@ -8,3 +8,4 @@ class Data(models.Model) :
     track = models.CharField(max_length=250)
     github_file_url = models.URLField()
     github_repo_url = models.URLField()
+    status_code = models.PositiveIntegerField(default=200)
